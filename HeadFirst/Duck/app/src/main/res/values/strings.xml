@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Duck</string>
+    <string name="first_text">Its a duck!</string>
+    <string name="sexond_text">(not a real one)</string>
+    <string name="todo">TODO</string>
+</resources>

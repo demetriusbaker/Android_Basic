@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fish">
+        <item>Carp</item>
+        <item>Pike</item>
+        <item>Catfish</item>
+        <item>Burbot</item>
+    </string-array>
+    <string-array name="fish_content">
+        <item>
+            various species of oily freshwater fish from the family Cyprinidae,
+            a very large group of fish native to Europe and Asia.
+            While carp is consumed in many parts of the world, they are
+            generally considered an invasive species in parts of Africa,
+            Australia and most of the United States.
+        </item>
+        <item>species of carnivorous fish of the genus Esox (the pikes).
+            They are typical of brackish and fresh waters of the Northern
+            Hemisphere (i.e. holarctic in distribution). They are known simply
+            as a pike in Britain, Ireland, and most of Eastern Europe, Canada
+            and the United States.
+        </item>
+        <item>
+            diverse group of ray-finned fish. Named for their prominent barbels,
+            which resemble a cat whiskers, catfish range in size and behavior from
+            the three largest species alive, the Mekong giant catfish from Southeast
+            Asia, the wels catfish of Eurasia, and the piraiba of South America, to
+            detritivores (species that eat dead material on the bottom), and even to
+            a tiny parasitic species commonly called the candiru, Vandellia cirrhosa.
+        </item>
+        <item>
+            only gadiform (cod-like) freshwater fish. It is also known as bubbot,
+            mariah, freshwater cod, freshwater ling, freshwater cusk, the lawyer,
+            coney-fish, lingcod, and eelpout. The species is closely related to the
+            marine common ling and the cusk. It is the only member of the genus Lota.
+            For some time of the year, the burbot lives under ice, and it requires
+            frigid temperatures to breed.
+        </item>
+    </string-array>
+    <array name="fish_image_array">
+        <item>@drawable/crusian_carp</item>
+        <item>@drawable/pike</item>
+        <item>@drawable/catfish</item>
+        <item>@drawable/burbot</item>
+    </array>
+
+    <string-array name="na">
+        <item>Carp bait</item>
+        <item>Pike bait</item>
+        <item>Catfish bait</item>
+        <item>Burbot bait</item>
+    </string-array>
+    <string-array name="na_content">
+        <item>
+            A common worm ...
+            Maggot for fishing ...
+            Bark beetle larva ...
+            Dragonfly for fishing ...
+            Canned corn ...
+            Green pea ...
+            Boiled potatoes for fishing ...
+            Wheat or pearl barley
+        </item>
+        <item>
+            bleak;
+            roach;
+            carp;
+            perch;
+            ruff;
+            gudgeon and other medium-sized fish.
+        </item>
+        <item>
+            Crawling out.
+            Zhivets.
+            Frog.
+            Sparrow.
+            Perlovitsa.
+            Locusts.
+            Chicken liver.
+            Pieces of fish.
+        </item>
+        <item>
+            bunches of red worms,
+            chicken offal,
+            crawling,
+            leeches,
+            fish
+        </item>
+    </string-array>
+    <array name="na_image_array">
+        <item>@drawable/crusian_carp</item>
+        <item>@drawable/pike</item>
+        <item>@drawable/catfish</item>
+        <item>@drawable/burbot</item>
+    </array>
+</resources>

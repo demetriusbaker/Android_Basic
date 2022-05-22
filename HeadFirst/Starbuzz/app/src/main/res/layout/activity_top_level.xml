@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B19292"
+    tools:context=".TopLevelActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="352dp"
+            android:layout_height="160dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/starbuzz_logo" />
+
+        <ListView
+            android:id="@+id/list_options"
+            style="@style/Widget.AppCompat.Light.ListView.DropDown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/options"></ListView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

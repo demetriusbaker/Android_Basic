@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ComponentsExample</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="nameButton">Check result</string>
+    <string name="j">Java</string>
+    <string name="k">Kotlin</string>
+    <string name="space">Get more space</string>
+
+    <string-array name="spinner_array">
+        <item>morning</item>
+        <item>afternoon</item>
+        <item>evening</item>
+        <item>night</item>
+    </string-array>
+</resources>

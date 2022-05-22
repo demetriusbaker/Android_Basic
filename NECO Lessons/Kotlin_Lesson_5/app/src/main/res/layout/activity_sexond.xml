@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SexondActivity">
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="125dp"
+        android:layout_height="94dp"
+        android:onClick="dontClick"
+        android:shadowColor="#E81717"
+        android:text="Не нажимай, а то укушу!"
+        android:textColor="@android:color/holo_red_light"
+        android:textColorHighlight="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textColorLink="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toTopOf="@+id/tvMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107"
+        app:rippleColor="@android:color/holo_red_dark"
+        app:strokeColor="#CD2626" />
+</androidx.constraintlayout.widget.ConstraintLayout>

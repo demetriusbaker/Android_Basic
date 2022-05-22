@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DialogAPickrers</string>
+
+    <string name="time_edit_text_hint">здесь будет время..</string>
+    <string name="date_edit_text_hint">здесь будет дата..</string>
+    <string name="btn_time_text">Время</string>
+    <string name="btn_date_text">Дата</string>
+</resources>

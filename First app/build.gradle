@@ -1,0 +1,8 @@
+buildscript {
+    ext {
+        kotlin_version = '1.4.30'
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.

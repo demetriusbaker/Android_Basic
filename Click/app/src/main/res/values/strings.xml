@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProcessingButtonAndView</string>
+    <string name="text">0</string>
+    <string name="toast">Toast</string>
+    <string name="count">Count</string>
+    <string name="random">Random</string>
+    <string name="random_heading">Random number between 1 and %d</string>
+</resources>
