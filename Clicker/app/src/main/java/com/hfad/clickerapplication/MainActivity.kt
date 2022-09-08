@@ -29,6 +29,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun decreaseScore(view: View){
+
+        startActivity(Intent(this, VideoPlayerWonClickerActivity::class.java))
+        return;
         infoScore?.text = "${--count}"
         if (count < 1){
             startActivity(Intent(this, VideoPlayerWonClickerActivity::class.java))
